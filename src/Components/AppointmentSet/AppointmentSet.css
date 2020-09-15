@@ -1,0 +1,34 @@
+.card-containera {
+  display: flex;
+  flex-direction: column;
+  border: outset;
+  padding: 20px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  text-align: center;
+}
+
+.card-containera:hover {
+  transform: scale(1.05);
+}
+
+.circlea {
+  border-radius: 200px;
+  height: 100px;
+  width: 100px;
+  background-color: lightblue;
+  color: blue;
+  align-self: center;
+  text-align: center;
+  line-height: 100px;
+}
+
+.term {
+  background-color: grey;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+}

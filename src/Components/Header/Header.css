@@ -1,0 +1,18 @@
+.thead {
+  padding: 1%;
+}
+
+.tdata {
+  padding: 1%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tt {
+  border-collapse: collapse;
+}

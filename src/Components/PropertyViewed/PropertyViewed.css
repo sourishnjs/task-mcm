@@ -1,0 +1,43 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border: outset;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  text-align: center;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.circle {
+  border-radius: 200px;
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  align-self: center;
+  text-align: center;
+  line-height: 100px;
+  text-emphasis-color: rgb(211, 152, 152);
+  color: green;
+}
+
+.age {
+  background-color: grey;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+}
+
+.bid {
+  background-color: orangered;
+  color: white;
+  margin-top: 1%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
